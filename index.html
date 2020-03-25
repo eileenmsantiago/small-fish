@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Small Fish in a Big Sea</title>
+  <meta name="description" content ="A WebGL experiment using Three.js"/>
+  <meta name="keywords" content ="three.js, webgl, game, 3d, animation, javascript"/>
+  <meta name="authors" content ="Eileen Santiago,Yang Yang & Oby"/>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+
+  <script src="https://threejs.org/build/three.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/GLTFLoader.js"></script>
+
+</head>
+<body>
+  <!-- Load rendered scene -->
+  <div class="container">
+    <header>
+      <h1>Small Fish in a Big Sea</h1>
+      <div class="message" id="instructions">Help Flip doge the <span>plastic bottles</span></div>
+    </header>
+    <div id="ocean" class="ocean"></div>
+
+    <script src="/helpers.js"></script>
+    <script src="/models/Seabed.js"></script>
+    <script src="/models/Water.js"></script>
+    <script src="/models/BottleContainer.js"></script>
+    <script src="/models/Fish.js"></script>
+    <script src="/models/Bottle.js"></script>
+    <script src="/sea.js"></script>
+  </div>
+</body>
+
+</html>
